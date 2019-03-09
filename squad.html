@@ -1,0 +1,15 @@
+---
+layout: default
+title: Squad
+---
+<h1>Squad</h1>
+
+<ul>
+  {% for player in site.players %}
+    <li>
+      <h2><a href="{{ player.url }}">{{ player.name }}</h2>
+<!--       <h3>{{ author.position }}</h3>
+      <p>{{ author.content | markdownify }}</p> -->
+    </li>
+  {% endfor %}
+</ul>

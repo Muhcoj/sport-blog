@@ -1,0 +1,12 @@
+<header class="header">
+  <nav>
+    <ul class="header-nav">
+      {% for item in site.data.header %}
+        <li>
+          <a href="{{ item.link }}" {% if page.url == item.link %} class="current" {% endif %}>{{ item.name }}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </nav>
+</header>
