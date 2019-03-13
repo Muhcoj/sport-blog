@@ -2,6 +2,7 @@
 layout: post
 players: Legends
 title: Ajax Nostalgia
+permalink: /test3/
 ---
 
 Ajax produced a stunning Champions League display this week to knock holders Real Madrid out of the tournament and progress to the quarter-finals.

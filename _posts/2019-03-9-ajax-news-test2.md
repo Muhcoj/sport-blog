@@ -2,6 +2,7 @@
 layout: post
 players: David Neres
 title: Ajax David Neres
+permalink: /test2/
 ---
 
 After scoring in the match which saw his countryman injured, the attacker is in line for his first cap for the Selecao

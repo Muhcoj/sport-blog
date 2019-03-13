@@ -2,14 +2,58 @@
 layout: default
 title: Home
 ---
+<div class="index-content">
+    <a href="/test3/">
+      <div class="index-item featured">
+        <div class="index-item-content">
+          <div class="item-meta index-item-meta">
+            mar 13, 2019
+            <span class="category-name">legends</span>
+          </div>
+          <h1>Ajax Nostalgia</h1>
+          <div class="index-item-excerpt">
+            Ajax produced a stunning Champions League display this week to knock holders Real Madrid out of the tournament and progress to the quarter-finals.
+          </div>
+        </div>
+      </div>
+    </a>
+    <a href="/test2/">
+      <div class="index-item second">
+        <div class="index-item-content">
+          <div class="item-meta index-item-meta">
+            mar 12, 2019
+            <span class="category-name">first team</span>
+          </div>
+          <h2>Ajax David Neres</h2>
+          <div class="index-item-excerpt">
+            After scoring in the match which saw his countryman injured, the attacker is in line for his first cap for the Selecao Ajax star David Neres is set to make his senior team debut for Brazil after he was called into the squad as an injury replacement for Real Madrid attacker Vinicius Junior.
+          </div>
+        </div>
+      </div>
+    </a>
+    <a href="/test1/">
+      <div class="index-item">
+        <div class="index-item-content">
+          <div class="item-meta index-item-meta">
+            mar 11, 2019
+            <span class="category-name">first team</span>
+          </div>
+          <h2>Ajax Matthijs de Ligt</h2>
+          <div class="index-item-excerpt">
+            Ajax defender Matthijs de Ligt has talked up a move to Liverpool by admitting a transfer to Jurgen Klopp’s side ‘could happen’.
+          </div>
+        </div>
+      </div>
+    </a>
+</div>
 
-<h1>Latest Posts</h1>
-
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      <p>{{ post.excerpt }}</p>
-    </li>
-  {% endfor %}
-</ul>
+<div class="side-menu">
+  <ul>
+    {% for post in site.posts %}
+      <li>
+        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        <p>{{ post.excerpt }}</p>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
