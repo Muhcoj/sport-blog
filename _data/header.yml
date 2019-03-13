@@ -1,8 +1,11 @@
-- name: Home
-  link: /
-- name: About
-  link: /about.html
+
+- name: First Team
+  link: /squad.html
 - name: Games
   link: /
-- name: Squad
-  link: /squad.html
+- name: Youth
+  link: /about.html
+- name: Video
+  link: /
+- name: Official Ajax Fanshop
+  link: /

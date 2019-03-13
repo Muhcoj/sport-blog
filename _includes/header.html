@@ -1,6 +1,8 @@
 <header class="header">
   <nav>
+    <a class="logo-link" href="/">AJAXXXAmsterdam</a>
     <ul class="header-nav">
+
       {% for item in site.data.header %}
         <li>
           <a href="{{ item.link }}" {% if page.url == item.link %} class="current" {% endif %}>{{ item.name }}

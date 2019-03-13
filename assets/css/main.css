@@ -73,9 +73,27 @@ p {
   padding: 5.5vh 60px 0 0;
 }
 
+.header-nav a:hover {
+  color: white;
+  transition: all .3s ease-in-out;
+}
+
+
 .header-nav > li {
   display: inline-block;
   margin-left: 1em;
+}
+
+.logo-link {
+  display: inline-block;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.header .logo-link {
+  padding: 1.5em 1em 1.5em 5em;
+  position: fixed;
+  top: 2vw;
 }
 
 
